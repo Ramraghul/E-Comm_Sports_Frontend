@@ -9,4 +9,4 @@
 <img src="./Home.jpeg" alt="Home">
 <br/>
 <h3>Pay type<h3/>
-<img src="./pay.jpeg" alt="Pay">
+<img src="./Pay.jpeg" alt="Pay">
