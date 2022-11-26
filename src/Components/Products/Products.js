@@ -15,9 +15,7 @@ function Products({ cart, value, data, isloading, handleToCart }) {
   }
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Navbar cart={cart} ></Navbar>
-      </nav>
       <div className="container">
         <section className="row py-5">
           <div className="container px-4 px-lg-5 mt-5">

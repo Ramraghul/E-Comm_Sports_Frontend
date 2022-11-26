@@ -42,36 +42,45 @@ function Viewproduct({ cart, handleToCart, isloading }) {
   let handleToBuy = (product) => {
     handleToCart(product)
   }
+  console.log(userData);
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Navbar cart={cart} ></Navbar>
-      </nav>
-      <div className="container mt-5">
-        <div className="row col-lg-12 col-md-8 col-sm-8">
-          <div className="card mb-3 offset-4" style={{ maxWidth: "540px" }}>
-            {
-              isloading ? <><Lottie options={defaultOptions}
-                height={400}
-                width={400}
-              /></> : <div className="row g-0">
-                <div className="col-md-4">
-                  <img src={userData.imgUrl} className="img-fluid rounded-start" alt="..." />
+      <Navbar cart={cart} ></Navbar>
+      {
+        isloading ? <Lottie options={defaultOptions} height={400} width={400} /> :
+          <div className="card mb-4 mt-5 w-75 views1 loop bg-transparent">
+            <div className="card-header text-white text-center py-3">
+              <h5 className="mb-0">{product.title}</h5>
+            </div>
+            <div className="card-body text-white">
+              <div className="row">
+                <div className="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                  <div className="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                    <img src={product.imgUrl} className="w-100" alt="Shoes" />
+                  </div>
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">{`Title: ${userData.title}`}</h5>
-                    <p className="card-text">{`Price:${userData.price}`}</p>
-                    <p className="card-text"><small className="text-muted"><h6>Description:</h6>lorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam</small></p>
-                    <button className="btn btn-outline-dark mt-auto" style={{ backgroundColor: "rgb(255, 119, 77)" }} onClick={() => handleToBuy(product)} >Buy now</button>
+
+                <div className="col-lg-5 col-md-6 mb-4 mt-5 mb-lg-0 text-center">
+                  <p><strong>{product.title}</strong></p>
+                  <p>price:{product.price}</p>
+                  <p>Size: M S L XL XXL </p>
+                  <button type="button" onClick={() => handleToBuy(product)} className="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
+                    title="Remove item">
+                    <i class="fas fa-shopping-cart"></i>
+                  </button>
+                </div>
+                <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                  <div className="d-flex mb-4" style={{ maxWidth: "300px" }}>
+                    <div className="form-outline fw-bold">
+                      <p className="card-text"><small className="text-muted"><h6><strong>Description <br/><hr/></strong>{product.dis}</h6></small></p>
+                    </div>
                   </div>
                 </div>
               </div>
-            }
+              <hr className="my-4" />
+            </div>
           </div>
-        </div>
-      </div>
-
+      }
     </>
   )
 }

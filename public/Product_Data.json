@@ -1,0 +1,73 @@
+[{
+  "price": 14995,
+  "imgUrl": "./assets/Shoes/one.png",
+  "title": "Nike Zoom Fly 5",
+  "dis": "Bridge the gap between your weekend training run and race day in a durable design that can be deployed not just at the starting line of your favourite race but in the days and months after your conquest. It offers comfort and reliability but with a propulsive sensation that'll help you feel fast and fresh.",
+  "count": 1
+},{
+  "title": "Nike Metcon 8 FlyEase",
+  "price": 11297,
+  "dis":"You chase the clock, challenging and encouraging each other all in the name of achieving goals and making gains. Our go-to model for training relies on a lighter, more breathable upper than our previous edition to complement our standards of durability and comfort, so that you can float through your cardio, power through your lifts and dominate your workouts. This version has a collapsible heel that lets you step in without using your hands; then it snaps back up to secure your foot.",
+  "imgUrl": "./assets/Shoes/two.png",
+  "count": 1
+},{
+  "title": "Zion 2 PF",
+  "price": 10795,
+  "dis":"Channel new levels of speed and power in shoes designed for Zion and built for ballers at any level. An adjustable strap up top helps lock your foot in while a firm midsole supports high-paced play. Make this your number 1 pick for the court.",
+  "imgUrl": "./assets/Shoes/three.png",
+  "count": 1
+},{
+  "title": "Nike MC Trainer 2",
+  "price": 5695,
+  "dis":"The Nike MC Trainer 2 can help you shift from circuit training in the weight room to the Astroturf for quick-twitch conditioning, seamlessly. It's a multi-purpose power that combines versatility, stability and longevity, so you can stay locked in on the physical task at hand. From back squats to sprint repeats, it can help support the rigours of your diverse training programme without having to make a pit stop to grab more gear for your workout.",
+  "imgUrl": "./assets/Shoes/four.png",
+  "count": 1
+},{
+  "title": "Air Jordan 14 Retro",
+  "price": 18395,
+  "dis":"The Air Jordan 14 Retro has class, comfort and the singular look of the original, with heritage-inspired colours, full-grain leather and responsive Zoom Air cushioning.",
+  "imgUrl": "./assets/Shoes/five.png",
+  "count": 1
+},{
+  "title": " SuperRep Cycle 2",
+  "price": 10297,
+  "dis":"Designed to be more breathable than its predecessor, the Nike SuperRep Cycle 2 Next Nature lets you work towards your next PR during high-heat, fast-paced indoor cycling. An improved adjustable strap helps secure your feet during intense movement.",
+  "imgUrl": "./assets/Shoes/six.png",
+  "count": 1
+},{
+  "title": "Nike Offline 3.0",
+  "price": 9695,
+  "dis":"Put the world on pause in the Nike Offline 3.0 Mule. The ribbed insole massages your foot, helping to keep you refreshed and relaxed. The padded, bootie-like upper with quilted fabric feels soft and airy. And wavy edges around the midsole mimic the calm movement of water. We think it's OK to do nothing—just do it comfortably.",
+  "imgUrl": "./assets/Shoes/seven.png",
+  "count": 1
+},{
+  "title": "x Ambush Air",
+  "price": 19295,
+  "dis":"Yoon Ahn hits refresh on the clandestine hoops shoe you've longed to see back on the streets. From luxurious nubuck leather to plastic details, the Ambush branded shoe bridges iconic b-ball style with runway flair. And of course, we've kept the removable midfoot strap that made this look legendary.",
+  "imgUrl": "./assets/Shoes/eight.png",
+  "count": 1
+},{
+  "title": "Air Jordan 1 Zoom Air",
+  "price": 12495,
+  "dis":"Step into comfort with the Air Jordan 1 Zoom Air Comfort. Refined to make one of history's most iconic sneakers more wearable, it combines full-grain leather in the upper with a cosy lining and responsive cushioning.",
+  "imgUrl": "./assets/Shoes/nine.png",
+  "count": 1
+},{
+  "title": " Nike Air Huarache SE",
+  "price": 12705,
+  "dis":"Don't adjust your screen. What you're seeing isn't a glitch in the system. Built to fit your foot and designed for comfort, this Nike Air Huarache SE packs a nostalgic punch with an all-over pixelated print and glow-in-the-dark details. The low-cut collar and bootie-like construction keep it sleek while an iconic heel clip and stripped-away branding add the '90s look you love",
+  "imgUrl": "./assets/Shoes/ten.png",
+  "count": 1
+},{
+  "title": "Nike Offline 3.0 just flute",
+  "price": 9567,
+  "dis":"Put the world on pause in the Nike Offline 3.0 Mule. The ribbed insole massages your foot, helping to keep you refreshed and relaxed. The padded, bootie-like upper with quilted fabric feels soft and airy. And wavy edges around the midsole mimic the calm movement of water. We think it's OK to do nothing—just do it comfortably.",
+  "imgUrl": "./assets/Shoes/eleven.png",
+  "count": 1
+},{
+  "title": "x Ambush Air for fresh one",
+  "price": 13456,
+  "dis":"clandestine hoops shoe you've longed to see back on the streets. From luxurious nubuck leather to plastic details, the Ambush branded shoe bridges iconic b-ball style with runway flair. And of course, we've kept the removable midfoot strap that made this look legendary.",
+  "imgUrl": "./assets/Shoes/twelve.png",
+  "count": 1
+}]

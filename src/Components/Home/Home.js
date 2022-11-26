@@ -4,6 +4,10 @@ import Navbar from './Navbar'
 import Lottie from 'react-lottie';
 import animationData from "../Animation/93948-wait-loading-animation.json"
 import { useLocation } from 'react-router-dom'
+import Carousel from '../HomeStuff/Carousel';
+import Support from '../HomeStuff/Support';
+import Footer from '../HomeStuff/Footer';
+import Testimonial from '../HomeStuff/Testimonial';
 
 
 function Home({ cart, handleToCart, data, isloading, value }) {
@@ -19,14 +23,20 @@ function Home({ cart, handleToCart, data, isloading, value }) {
   let username = location.state
   return (
     <>
-      {/* <--------------------start-Navbar------------------------> */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <span className='Head'>
+        {/* <--------------------start-Navbar------------------------> */}
         <Navbar cart={cart} username={username}></Navbar>
-      </nav>
-      {/* <------------------------cards start------------------> */}
+        {/* ----------------------Carousel------------------------ */}
+        <Carousel></Carousel>
+        {/* <------------------------cards start------------------> */}
+      </span>
       <div className="container">
-        <section className="row py-5">
+        <section className="row py-1">
           <div className="container px-4 px-lg-5 mt-5">
+          <div className="header">
+                <h1>Products</h1>
+                <div class="border"></div>
+            </div>
             <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
               {
                 isloading ? <><Lottie options={defaultOptions}
@@ -39,6 +49,15 @@ function Home({ cart, handleToCart, data, isloading, value }) {
             </div>
           </div>
         </section>
+      </div>
+      <div>
+      <Support></Support>
+      </div>
+      <div>
+        <Testimonial></Testimonial>
+      </div>
+      <div>
+        <Footer></Footer>
       </div>
     </>
   )
